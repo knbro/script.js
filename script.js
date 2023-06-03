@@ -2,10 +2,11 @@ function translateSubtitles() {
   var originalSubtitles = document.getElementById("originalSubtitles").value;
 
   // Replace 'YOUR_TRANSLATION_API_KEY' with your actual translation API key
-  var apiKey = 'YOUR_TRANSLATION_API_KEY';
-  var targetLanguage = 'fr'; // Change to your desired target language code
+  var apiKey = '4bf7a543a18542a480b1814729f3e423';
+  var targetLanguage = 'ml'; // Change to your desired target language code
 
-  var url = 'https://translation.googleapis.com/language/translate/v2?key=' + apiKey;
+  var url = 'https://southeastasia.api.cognitive.microsofttranslator.com/translate?api-version=3.0
+' + apiKey;
   
   $.ajax({
     url: url,
